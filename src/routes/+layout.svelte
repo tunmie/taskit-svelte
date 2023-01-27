@@ -3,8 +3,8 @@
 	import logo from "$lib/assets/logo.png"
 </script>
 
-<nav>
-	<ul>
+<nav class='container mx-auto'>
+	<ul class='flex flex-row justify-around'>
 		<li>
 			<div class="logo">
 				<img src={logo} alt="our logo" class="px-">
@@ -28,12 +28,6 @@
 <style>
 	nav {
 		background-color: #F0FFF0;
-	}
-	ul {
-		display: flex;
-		flex-direction: row;
-		justify-content: space-evenly;
-		align-items: center;
 	}
 
 </style>
